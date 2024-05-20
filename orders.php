@@ -57,7 +57,7 @@ if(isset($_SESSION['user_id'])){
    <?php
       }
       }else{
-         echo '<p class="empty">Henüz siparişiniz mevcut değil!</p>';
+         echo '<div style="margin: auto"> <p class="empty">Henüz siparişiniz mevcut değil!</p></div>';
       }
       }
    ?>
